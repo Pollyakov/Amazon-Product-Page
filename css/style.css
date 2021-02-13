@@ -3,6 +3,28 @@
    margin: 0;
    padding:0;
 }
+:root{
+   --primary-color: #FFFFFF;
+   --secondary-color:rgb(15,17,17); /*section name*/
+   /* --secondary color:var(--primary-color) */
+   --info: #565959; /*h-product name*/
+   --background-info: #D3D3D3;
+   --background-info-hover-1: #e7e9ec; 
+   --background-info-hover-2: #f2f2f2;
+   --header-belt-background-color: #131921;
+   --header-main-background-color: #232F3E;
+   --search-background: #FEBD69;
+   --addToCart-background: rgb(242,200,93);
+   --attension-1: rgb(240,136,4);
+   --attension-2:rgb(250,150,1); /*logo-arrow*/
+   --attension-3: rgb(255,164,28); /*stars*/
+   --danger: rgb(177,39,4); /*price, links*/
+   --link-clicked: #187895;
+}
+
+
+
+
 
 
 
