@@ -1,18 +1,22 @@
+
+@font-face {font-family: "Amazon Ember"; src: url("//db.onlinewebfonts.com/t/157c6cc36dd65b1b2adc9e7f3329c761.eot"); src: url("//db.onlinewebfonts.com/t/157c6cc36dd65b1b2adc9e7f3329c761.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/157c6cc36dd65b1b2adc9e7f3329c761.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/157c6cc36dd65b1b2adc9e7f3329c761.woff") format("woff"), url("//db.onlinewebfonts.com/t/157c6cc36dd65b1b2adc9e7f3329c761.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/157c6cc36dd65b1b2adc9e7f3329c761.svg#Amazon Ember") format("svg"); }
+@import url(//db.onlinewebfonts.com/c/157c6cc36dd65b1b2adc9e7f3329c761?family=Amazon+Ember);
 *{
    box-sizing: border-box;
    margin: 0;
    padding:0;
+   border: crimson 1px solid;
 }
 :root{
-   --primary-color: #FFFFFF;
+   --primary-color: 0F1111;
    --secondary-color:rgb(15,17,17); /*section name*/
    /* --secondary color:var(--primary-color) */
    --info: #565959; /*h-product name*/
    --background-info: #D3D3D3;
    --background-info-hover-1: #e7e9ec; 
    --background-info-hover-2: #f2f2f2;
-   --header-belt-background-color: #131921;
-   --header-main-background-color: #232F3E;
+   --header-footer-background-color-dark: #131921;
+   --header-footer-background-color-light: #232F3E;
    --search-background: #FEBD69;
    --addToCart-background: rgb(242,200,93);
    --attension-1: rgb(240,136,4);
@@ -20,7 +24,53 @@
    --attension-3: rgb(255,164,28); /*stars*/
    --danger: rgb(177,39,4); /*price, links*/
    --link-clicked: #187895;
+   --tertiary-font-size:12px;
+} 
+body{
+   font-family: "Amazon Ember";
+   font-size: 14px;
+   color:var(--primary-color);
+   line-height: 20px;
 }
+header{
+   width: 100%;
+}
+.belt {
+   height:55px;
+   background-color: #131921;
+}
+.main {
+   height:45px;
+   background-color: #232F3E;
+}
+.wayfinding{
+   margin: 8px 0 0 ;
+   padding: 0 16px;
+   font:var(--tertiary-font-size);
+   height:13.3px;
+   width:100vw;
+}
+.wrapper {
+   margin:auto;
+   display:block;
+}
+.grid-container{
+   color: var(--secondary-color);
+   margin: 20px 0px 0px;
+   padding: 0px 18px 18px;
+   display: grid;
+   grid-template-columns: 2fr auto 1.5fr;
+   border-bottom: 1px solid rgb(231,231,231);
+
+}
+.row{
+   width: 100WH;
+}
+.left > img {
+   height:526px;
+   width:337;
+}
+
 
 
 
