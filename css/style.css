@@ -5,7 +5,7 @@
    box-sizing: border-box;
    margin: 0;
    padding:0;
-   border: crimson 1px solid;
+   /* border: crimson 1px solid; */
 }
 :root{
    --primary-color: 0F1111;
@@ -59,17 +59,25 @@ header{
    margin: 20px 0px 0px;
    padding: 0px 18px 18px;
    display: grid;
+   grid-auto-rows: minmax(200px, auto);
    grid-template-columns: 2fr auto 1.5fr;
    border-bottom: 1px solid rgb(231,231,231);
 
 }
 .row{
-   width: 100WH;
+   width: 100vw;
 }
 .left > img {
    height:526px;
-   width:337;
+   /* width:337px; */
 }
+.center {
+   border: 1px solid red;
+}
+.right{
+   border: 1px solid red;
+}
+
 
 
 
