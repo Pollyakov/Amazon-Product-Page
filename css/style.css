@@ -66,6 +66,10 @@ header{
 }
 .row{
    width: 100vw;
+   display:flex;
+}
+.left {
+   width: 30%;
 }
 .left > img {
    height:526px;
@@ -73,9 +77,12 @@ header{
 }
 .center {
    border: 1px solid red;
+   padding: 5px;
+   width: 50%;
 }
 .right{
    border: 1px solid red;
+   width: 20%;
 }
 
 
