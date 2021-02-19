@@ -67,12 +67,43 @@ header{
 .row{
    width: 100vw;
    display:flex;
+   margin-top: 20px;
+   padding: 0 20px;
 }
 .left {
    width: 30%;
+   display: flex;
+   
+}
+/* .left >.main-img{
+   width:80%;
+} */
+.gallery {
+   display: flex;
+   flex-direction:column;
+   width: 20%;
+}
+.gallery > img {
+   width:38px;
+   height:50px;
+   margin-top:10px;
+   border: 1px solid var(--info);
+   border-radius: 2px;
+}
+
+.gallery > img:hover {
+   border: 1px solid var( --attension-3);
+}
+
+.main-img {
+   width: 80%;
+}
+
+.main-img>img {
+   width:70%;
 }
 .left > img {
-   height:526px;
+   
    /* width:337px; */
 }
 .center {
