@@ -3,7 +3,7 @@
 //
 
 function hover(element) {
-    document.getElementById('img').src = this.src;
-    console.log(element.src);
+    document.getElementById('img').src = element.getAttribute("src");
+    
 
 }

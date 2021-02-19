@@ -23,14 +23,15 @@
        <div class="left">
            <div class="gallery">
             <img class = "gallery-img" src="/img/img1.jpg"  onmouseover="hover(this)" alt="">
-            <img class = "gallery-img" src="/img/img2.jpg" alt="">
-            <img class = "gallery-img" src="/img/img3.jpg" alt="">
-            <img class = "gallery-img" src="/img/img4.jpg" alt="">
-            <img class = "gallery-img" src="/img/img5.jpg" alt="">
-            <img class = "gallery-img" src="/img/product_1.jpg" alt="">
+            <img class = "gallery-img" src="/img/img2.jpg" onmouseover="hover(this)" alt="">
+            <img class = "gallery-img" src="/img/img3.jpg" onmouseover="hover(this)" alt="">
+            <img class = "gallery-img" src="/img/img4.jpg" onmouseover="hover(this)" alt="">
+            <img class = "gallery-img" src="/img/img5.jpg" onmouseover="hover(this)" alt="">
+            <img class = "gallery-img" src="/img/product_1.jpg" onmouseover="hover(this)" alt="">
              </div>
             <div class="main-img"> 
                 <img id="img" src="/img/product_1.jpg" alt="black sweater">
+                <div></div>
                 <span class="size-small">Roll over image to zoom in
                 </span>
             </div>
@@ -39,10 +40,27 @@
        <div class="center">
            <span>Visit the shermie Store</span>
            <h3>shermie Women's Pullover Sweaters Long Sleeve Crewneck Cute Heart Knitted Sweaters</h3>
+           <div class="horizontal-line"></div>
+
+    
            <div class="price">Price</div>
            <span class="size">Fit:Trueto size</span>
            <div>size</div>
-           <select name="" id="" class="size"></select>
+           
+           <select name="select" id="" class="size">Select
+               <option value="small">Select</option>
+               <option value="small">Small</option>
+               <option value="small">Medium</option>
+               <option value="small">Large</option>
+           </select>
+           <div class="horizontal">
+            <img class = "gallery-img" src="/img/img1.jpg"  onmouseover="hover(this)" alt="">
+            <img class = "gallery-img" src="/img/img2.jpg" onmouseover="hover(this)" alt="">
+            <img class = "gallery-img" src="/img/img3.jpg" onmouseover="hover(this)" alt="">
+            <img class = "gallery-img" src="/img/img4.jpg" onmouseover="hover(this)" alt="">
+            <img class = "gallery-img" src="/img/img5.jpg" onmouseover="hover(this)" alt="">
+            <img class = "gallery-img" src="/img/product_1.jpg" onmouseover="hover(this)" alt="">
+             </div>
            <div class="product-description"><ul>
             <li>The heart detail is very cute, Very comfortable sweater, Material is nice, not too heavy</li>
             <li>Comfy & lightweight, Easy to wear a shirt underneath. suit for spring fall or winter</li>
@@ -54,17 +72,18 @@
        </div>
        
        <div class="right">
-           <div class="addingToCart">
-            <p>To buy, select<span> Size</span></p>
+           <div class="right-top">
+            <div >To buy, select<b> Size</b></div>
+            <div class="button">
+                <div class="icon"></div>
+                <button class="attension">Add to Cart</button>
+            </div>
+            <div class = "horizontal-line"></div>
+            <div><button class= "info">Add to List</button></div>
+            </div>
         </div> 
-        <div class="button">
-            <div class="icon"></div>
-            <button class="addToCart"></button>
-        </div>
-        <div class="addingToList">
-            <button>Add to List</button>
-        </div>
-               <div class="coupon"></div>
+    
+    <div class="coupon"></div>
 
        </div>
      </main>
@@ -73,6 +92,6 @@
       </section>
 </div>
 </div>
-   
+    
 </body>
 </html>

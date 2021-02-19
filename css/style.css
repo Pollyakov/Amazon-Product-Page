@@ -83,17 +83,21 @@ header{
    flex-direction:column;
    width: 20%;
 }
-.gallery > img {
+.gallery-img {
    width:38px;
    height:50px;
    margin-top:10px;
    border: 1px solid var(--info);
    border-radius: 2px;
 }
+.horizontal > .gallery-img {
+   margin: 15px 10px 15px 0;
+}
 
-.gallery > img:hover {
+.gallery-img:hover {
    border: 1px solid var( --attension-3);
 }
+
 
 .main-img {
    width: 80%;
@@ -115,10 +119,36 @@ header{
    border: 1px solid red;
    width: 20%;
 }
+.right-top {
+   padding: 15px;
+   border: 1px solid var(--info) ;
+   border-radius: 6px;
+   margin:20px;
+   text-align: center;
+}
 
+.right-top > div {
+   margin: 10px 0;
+}
+.horizontal-line{
+   border-top: 1px solid var(--info);
+}
+.right-top > div > button {
+   border-radius: 4px;
+   width: 100%;
+   height:30px;
+}
+.attension {
+   background-color: var(--addToCart-background);
+}
+.product-description {
+   padding-left:20px;
+}
 
-
-
+.size {
+   border-radius: 6px;
+   height: 30px;
+}
 
 
 
